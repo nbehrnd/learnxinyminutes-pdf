@@ -2,10 +2,8 @@
 
 (**Updated** 27/8/16) [Learn X in Y minutes](http://learnxinyminutes.com) as PDF. Source = https://github.com/adambard/learnxinyminutes-docs
 
-
 ## Preview
 ![Screenshot](https://cloud.githubusercontent.com/assets/4047597/18028175/063ccd6a-6c95-11e6-9ebf-fba11c516afc.png)
-
 
 ## Download
 
@@ -14,18 +12,15 @@
 * The individual PDF files can be found as [release attachments](https://github.com/aviaryan/learnxinyminutes-pdf/releases/tag/v2016.08.27).
 * If you want a zip of all individual PDF's, then download [learnxinyminutes_all.zip](https://github.com/aviaryan/learnxinyminutes-pdf/releases/download/v2016.08.27/learnxinyminutes_all.zip).
 
-
 ### Limitations
 
 * `learnxinyminutes.pdf` doesn't include 2 languages; latex and markdown. This is because they caused conflicts while building the pdf (you can guess why). If needed, you can always download their individual pdf's from the [release attachments](https://github.com/aviaryan/learnxinyminutes-pdf/releases/tag/v2016.08.27).
-
 
 ### Build Requirements
 
 * Python 3
 * Pandoc
 * Latex
-
 
 ### Build Instructions
 
