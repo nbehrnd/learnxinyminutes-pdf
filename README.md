@@ -1,7 +1,7 @@
 # Learn X in Y minutes - PDF
 
 (**Updated** 27/8/16) [Learn X in Y minutes](http://learnxinyminutes.com) as
-PDF. Source = https://github.com/adambard/learnxinyminutes-docs
+PDF. Source = <https://github.com/adambard/learnxinyminutes-docs>
 
 ## Preview
 
