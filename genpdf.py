@@ -3,9 +3,9 @@
 """Script to generate a synoptic .pdf about the entries of learnxinyminutes.
 
 For proper execution, this script depends on a working installation of
-+ Python (e.g., https://www.python.org/)
-+ Pandoc (e.g., https://pandoc.org/)
-+ XeLaTeX (e.g., https://en.wikipedia.org/wiki/XeTeX)
++ Python (e.g., <https://www.python.org>)
++ Pandoc (see <https://pandoc.org>)
++ pdfLaTeX (e.g., via <https://miktex.org>)
 
 Copy the markdown files of your interest into this project's folder, and
 run
@@ -99,6 +99,6 @@ call(['pandoc'] + ls + [
     'learnxinyminutes.pdf',
     '-V',
     'geometry:margin=1in',
-    '--pdf-engine=xelatex',
+    '--pdf-engine=pdflatex',
     # '--template=template.tex',
 ])
