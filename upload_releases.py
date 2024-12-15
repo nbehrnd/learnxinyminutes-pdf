@@ -1,7 +1,13 @@
-from github3 import login
+#!/usr/bin/env python3
+
+"""script to assist in the upload of the pdf as assests"""
+
 import os
-from sys import exit
 import shutil
+
+from sys import exit
+
+from github3 import login
 
 # uploads on the latest release . So create a relase first, then run this script
 
@@ -17,7 +23,7 @@ def upload(file, mime="application/pdf"):
 
 username = "aviaryan"
 repo = "learnxinyminutes-pdf"
-tokentxt = open("token.txt", "r").read()
+tokentxt = open("token.txt", "r", encoding="utf-8").read()
 gh = login(token=tokentxt)
 
 user = gh.user(username)
